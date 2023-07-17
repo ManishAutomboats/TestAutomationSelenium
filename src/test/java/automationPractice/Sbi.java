@@ -1,8 +1,10 @@
 package automationPractice;
 
-import test.Test;
+import org.testng.ITestListener;
 
-public class Sbi extends Axis {
+import Random.Test;
+
+public class Sbi extends Axis implements ITestListener{
 	
   
 	public void s() {
